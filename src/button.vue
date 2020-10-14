@@ -2,7 +2,9 @@
     <button class="g-button">hi</button>
 </template>
 <script>
-    export default{ }
+     export default {
+        name: 'button'
+    }
 </script>
 <style lang="scss">
     .g-button{
